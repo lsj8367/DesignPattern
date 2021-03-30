@@ -30,6 +30,7 @@ public class StringDisplayImpl extends DisplayImpl{
 
     private void printLine() {
         System.out.print("+");
+        //for문 stream형식 한번 sout 실행될때 '-' 출력
         IntStream.range(0, width).mapToObj(i -> "-").forEach(System.out::print);
         System.out.println("+");
     }
