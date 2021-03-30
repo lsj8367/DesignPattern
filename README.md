@@ -4,7 +4,7 @@
 |:-:|:-:|:-:|
 |Builder|Adapter||
 |Singleton|Bridge||
-|factory|||
+|Factory|||
 
 
 [디자인 각 패턴에 대한 설명👉](https://velog.io/@lsj8367)
