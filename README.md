@@ -6,5 +6,7 @@
 
 - Singleton Pattern
   - 단 하나의 인스턴스임을 보장해주는 패턴
+- [ProtoType pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/prototype/prototype.md)
+  -  하나의 인스턴스가 나머지를 복제해서 생성해주는 패턴
 
 
