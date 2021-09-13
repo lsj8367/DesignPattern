@@ -4,9 +4,7 @@
 
 ## 생성 패턴
 
-- Singleton Pattern
-  - 단 하나의 인스턴스임을 보장해주는 패턴
+- [Singleton Pattern]()
 - [ProtoType pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/prototype/prototype.md)
-  -  하나의 인스턴스가 나머지를 복제해서 생성해주는 패턴
-
-
+- [Abstract Factory Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/abstractFactory/%EC%B6%94%EC%83%81%ED%8C%A9%ED%86%A0%EB%A6%AC.md)
+- [Builder Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/builder/builder.md)
