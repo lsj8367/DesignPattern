@@ -13,7 +13,7 @@
 ## 구조(structural) 패턴
 
 - [Bridge Pattern](https://lsj8367.github.io/java/Java-designpattern-4/)
-- [Decorator Pattern]()
+- [Decorator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/decorator/decorator.md)
 
 ## 행위(behavioral) 패턴
 
