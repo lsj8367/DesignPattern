@@ -1,0 +1,24 @@
+package behavioral.state;
+
+import behavioral.state.exception.DelayLessThanZeroException;
+
+public class DelayLessThan14Days implements DelayState {
+
+    private final int delayDays;
+
+    private DelayLessThan14Days(int delayDays) {
+        this.delayDays = delayDays;
+    }
+
+    public static DelayLessThan14Days of(int delayDays) {
+        if (delayDays < 0) {
+            throw new DelayLessThanZeroException("연체 기간이 0보다 작을 수 없습니다.");
+        }
+        return new DelayLessThan14Days(delayDays);
+    }
+
+    @Override
+    public int delPointCalculate(int price) {
+        return Integer.parseInt(String.valueOf(Math.round(price * 0.2)));
+    }
+}
