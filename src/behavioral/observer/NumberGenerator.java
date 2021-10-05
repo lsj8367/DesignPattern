@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public abstract class NumberGenerator {
 
-    private ArrayList<Observer> observers = new ArrayList<>();
+    private final ArrayList<Observer> observers = new ArrayList<>();
 
     public void addObserver(Observer observer) {
         observers.add(observer);
@@ -16,10 +16,7 @@ public abstract class NumberGenerator {
     }
 
     public void notifyObservers() {
-        Iterator<Observer> iterator = observers.iterator();
-
-        while (iterator.hasNext()) {
-            Observer observer = iterator.next();
+        for (Observer observer : observers) {
             observer.update(this);
         }
     }

@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RandomNumberGenerator extends NumberGenerator {
 
-    private Random random = new Random();
+    private final Random random = new Random();
     private int number;
 
     @Override
