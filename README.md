@@ -22,4 +22,4 @@
 - [Template Method Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/templatemethod/TemplateMethod.md)
 - [Strategy Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/strategy/strategy.md)
 - [State Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/state/state.md)
-- [Observer Pattern]()
+- [Observer Pattern](https://github.com/lsj8367/DesignPattern/tree/master/src/behavioral/observer/observer.md)
