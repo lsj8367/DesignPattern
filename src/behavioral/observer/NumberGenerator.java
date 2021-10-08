@@ -1,7 +1,6 @@
 package behavioral.observer;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public abstract class NumberGenerator {
 
@@ -22,5 +21,6 @@ public abstract class NumberGenerator {
     }
 
     public abstract int getNumber();
+
     public abstract void execute();
 }
