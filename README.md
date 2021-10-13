@@ -16,6 +16,7 @@
 - [Decorator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/decorator/decorator.md)
 - [Composite Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/composite/composite.md)
 - [Adapter Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/adapter/adapter.md)
+- [Facade Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/facade/facade.md)
 
 ## 행위(behavioral) 패턴
 
@@ -23,3 +24,4 @@
 - [Strategy Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/strategy/strategy.md)
 - [State Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/state/state.md)
 - [Observer Pattern](https://github.com/lsj8367/DesignPattern/tree/master/src/behavioral/observer/observer.md)
+- [Memento Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/memento/memento.md)
