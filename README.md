@@ -25,3 +25,4 @@
 - [State Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/state/state.md)
 - [Observer Pattern](https://github.com/lsj8367/DesignPattern/tree/master/src/behavioral/observer/observer.md)
 - [Memento Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/memento/memento.md)
+- [Mediator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/mediator/mediator.md)
