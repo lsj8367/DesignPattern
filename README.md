@@ -25,7 +25,7 @@
 - [템플릿 메소드 패턴 - Template Method Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/templatemethod/TemplateMethod.md)
 - [전략 패턴 - Strategy Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/strategy/strategy.md)
 - [상태 패턴 - State Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/state/state.md)
-- [옵저터 패턴 - Observer Pattern](https://github.com/lsj8367/DesignPattern/tree/master/src/behavioral/observer/observer.md)
+- [옵저버 패턴 - Observer Pattern](https://github.com/lsj8367/DesignPattern/tree/master/src/behavioral/observer/observer.md)
 - [메멘토 패턴 - Memento Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/memento/memento.md)
 - [미디에이터 패턴 - Mediator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/mediator/mediator.md)
 - [반복자 패턴 - Iterator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/behavioral/iterator/iterator.md)
