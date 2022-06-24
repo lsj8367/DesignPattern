@@ -1,10 +1,8 @@
 # 자바 디자인 패턴
 
-[디자인 각 패턴에 대한 설명👉](https://lsj8367.github.io/tags/#designpattern)
-
 ## 생성(credential) 패턴
 
-- [싱글톤 패턴 - Singleton Pattern](https://lsj8367.github.io/java/Java-design-pattern-7/)
+- [싱글톤 패턴 - Singleton Pattern](https://velog.io/@lsj8367/Java-%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-%EC%8B%B1%EA%B8%80%ED%86%A4Singleton-pattern)
 - [프로토 타입 패턴 - ProtoType pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/credential/prototype/prototype.md)
 - [추상 팩토리 패턴 - Abstract Factory Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/credential/abstractFactory/%EC%B6%94%EC%83%81%ED%8C%A9%ED%86%A0%EB%A6%AC.md)
 - [빌더 패턴 - Builder Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/credential/builder/builder.md)
@@ -12,7 +10,7 @@
 
 ## 구조(structural) 패턴
 
-- [브릿지 패턴 - Bridge Pattern](https://lsj8367.github.io/java/Java-designpattern-4/)
+- [브릿지 패턴 - Bridge Pattern](https://velog.io/@lsj8367/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-Bridge-Pattern)
 - [데코레이터 패턴 - Decorator Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/decorator/decorator.md)
 - [컴포지트 패턴 - Composite Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/composite/composite.md)
 - [어댑터 패턴 -Adapter Pattern](https://github.com/lsj8367/DesignPattern/blob/master/src/structural/adapter/adapter.md)
