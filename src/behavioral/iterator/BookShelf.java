@@ -2,9 +2,9 @@ package behavioral.iterator;
 
 public class BookShelf implements Aggregate {
 
-    private Book[] books;
+    private final Book[] books;
     private int last = 0;
-    Factory f = IteratorFactory.getInstance();
+    private final Factory f = IteratorFactory.getInstance();
 
     public BookShelf(int maxsize) {
         this.books = new Book[maxsize];
@@ -26,8 +26,7 @@ public class BookShelf implements Aggregate {
 
     @Override
     public Iterator iterator(int type) {
-        Iterator i = f.create(this, type);
-        return i;
+        return f.create(this, type);
     }
 
 }

@@ -3,6 +3,7 @@ package behavioral.iterator;
 public class IteratorFactory extends Factory {
 
     private static IteratorFactory iteratorFactory = new IteratorFactory();
+
     private IteratorFactory() {
 
     }
@@ -16,12 +17,14 @@ public class IteratorFactory extends Factory {
 
     @Override
     protected Iterator createProduct(Aggregate bookShelf, int type) {
-        if(type == Constant.FORWARD.getNumber())
+        if (type == Constant.FORWARD.getNumber()) {
             return new BookShelfIterator(bookShelf);
-        else if(type == Constant.REVERSE.getNumber())
+        } else if (type == Constant.REVERSE.getNumber()) {
             return new ReverseIterator(bookShelf);
-        else
+        } else {
             return null;
+        }
 
     }
+
 }

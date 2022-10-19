@@ -12,10 +12,7 @@ public class ReverseIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        if (index >= 0) {
-            return true;
-        }
-        return false;
+        return index >= 0;
     }
 
     @Override

@@ -2,7 +2,7 @@ package behavioral.iterator;
 
 public class BookShelfIterator implements Iterator {
 
-    private BookShelf bookShelf;
+    private final BookShelf bookShelf;
     private int index;
 
     public BookShelfIterator(Aggregate bookShelf) {
@@ -12,11 +12,7 @@ public class BookShelfIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        if (index < bookShelf.getLength()) {
-            return true;
-        } else {
-            return false;
-        }
+        return index < bookShelf.getLength();
     }
 
     @Override

@@ -12,7 +12,7 @@ public class Main {
         Iterator it = bookShelf.iterator(Constant.FORWARD.getNumber());
         while (it.hasNext()) {
             Book book = (Book)it.next();
-            System.out.println("" + book.getName());
+            System.out.println("" + book.name());
         }
 
         System.out.println("============");
@@ -20,7 +20,7 @@ public class Main {
         it = bookShelf.iterator(Constant.REVERSE.getNumber());
         while (it.hasNext()) {
             Book book = (Book)it.next();
-            System.out.println("" + book.getName());
+            System.out.println("" + book.name());
         }
 
     }

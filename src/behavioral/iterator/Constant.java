@@ -4,7 +4,7 @@ public enum Constant {
     FORWARD(0),
     REVERSE(1);
 
-    private int number;
+    private final int number;
 
     Constant(int number) {
         this.number = number;
